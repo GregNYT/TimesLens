@@ -1,0 +1,86 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:3:5-57
+	android:versionName
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:4:5-63
+	android:versionCode
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:6:22-77
+application
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:8:5-23:19
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:11:9-41
+	android:allowBackup
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:9:9-36
+	android:icon
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:10:9-45
+	android:theme
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:12:9-52
+activity#com.theartofdev.edmodo.cropper.quick.start.MainActivity
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:13:9-21:20
+	android:label
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:15:13-45
+	android:name
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:14:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:17:17-68
+	android:name
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:19:27-74
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:22:9-84
+	android:name
+		ADDED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml:22:19-82
+uses-sdk
+INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [Android-Image-Cropper-2.2.3:cropper:unspecified] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/Android-Image-Cropper-2.2.3/cropper/unspecified/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.2.1] /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
+		INJECTED from /Users/207434/Downloads/Android-Image-Cropper-2.2.3/quick-start/src/main/AndroidManifest.xml
