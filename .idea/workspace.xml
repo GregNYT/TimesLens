@@ -11,23 +11,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="235ef425-3b6f-4845-a20e-2fb5119e7ee2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_cropper_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_quick-start_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_quick-start_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_quick-start_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_quick-start_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sample_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sample_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sample_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sample_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/jars/classes.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-hdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-hdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xhdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xhdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxhdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxhdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapCroppingWorkerTask$Result.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapCroppingWorkerTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapLoadingWorkerTask$Result.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapLoadingWorkerTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapUtils$DecodeBitmapResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapUtils$RotateBitmapResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BitmapUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImage$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImage$ActivityBuilder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImage$ActivityResult$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImage$ActivityResult.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImage.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageAnimation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageOptions$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageOptions.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$CropShape.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$Guidelines.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$OnGetCroppedImageCompleteListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$OnSaveCroppedImageCompleteListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$OnSetImageUriCompleteListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView$ScaleType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropImageView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropOverlayView$CropWindowChangeListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropOverlayView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropWindowHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropWindowMoveHandler$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropWindowMoveHandler$Type.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/tmp/expandedArchives/classes.jar_2abopol6pl5xjhix5fey99o2i/com/theartofdev/edmodo/cropper/CropWindowMoveHandler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/Article.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/ArticleFetcher.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/Translator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/jars/classes.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-hdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-hdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xhdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xhdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxhdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxhdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/drawable-xxxhdpi-v4/crop_image_menu_rotate_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/debug_aa580ddd910c76fe89858090e5551c4cab93fb6e.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/207434.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_23_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_23_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/tess_two_6_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/Android-Image-Cropper-2.2.3-cropper-unspecified_833bd911493df98e16383468c0fe5b409acd3a42.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_4b22479041ea73c3c984562390e998572c9ddb32.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_17d4f982b99af84cbf94e43177d52d29b7d1c4c6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_61ec6c6380dece51a73e66a73d1a58de12f12631.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_728fe7d3063a065fa44399c26c93cf29464ff833.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/debug_9244621727383ad3faa9b0eb21ad478a6257615d.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_4bb8b1a96930e7b73835762d37e4c0675a4ded98.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/Android-Image-Cropper-2.2.3-cropper-unspecified_70dd212b2dd6967ea4f7dc41e3427e6ad949bd2a.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_9ba48c144a7db2c709c64d11125cba0f502ec403.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_85835f5bf53eb86bc91a7618118002bcd2c7f768.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_e8405f9f0b1b0e7360a228b674ab4935c69126fb.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_05736036d239f45ca24f09bb91f5dd762fa6eafa.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.rmtheis-tess-two-6.0.2_1d72bd6780c6170ccbd4c6a812150e965cfd1c34.jar" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/tess-two/times-lens-tess-two.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/R.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/aapt/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/layout/crop_image_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/layout/crop_image_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/menu/crop_image_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/values/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/R.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/aapt/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/layout/crop_image_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/layout/crop_image_view.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/menu/crop_image_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/values/values.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/times-lens.iml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/debug_65a2f81a3984e4ac5eaf7c119f8d247875463773.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_55a5765af6ee6e14b74dd44b41d53d13dce298da.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/Android-Image-Cropper-2.2.3-cropper-unspecified_833bd911493df98e16383468c0fe5b409acd3a42.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/times-lens-cropper-unspecified_c6a0da2ed445b47bc913a709342a0c231a029115.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_4b22479041ea73c3c984562390e998572c9ddb32.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_d40a67cfb7b06c6456f18c994b6721a90d4e8a9b.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_17d4f982b99af84cbf94e43177d52d29b7d1c4c6.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_51e96c4848a3348b5a3ba6705b2c9cb87f626849.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_61ec6c6380dece51a73e66a73d1a58de12f12631.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_c025348f6d0bf4b391d8a690c4b91a366f570d20.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_728fe7d3063a065fa44399c26c93cf29464ff833.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_3ca7ae6c53ef8d3347efca14cba0716f4c130fb2.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/debug_9244621727383ad3faa9b0eb21ad478a6257615d.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/debug_c2187d21737b066c04b8a07ce98e3b4daee74b0c.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_4bb8b1a96930e7b73835762d37e4c0675a4ded98.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_5bfc14f923537ca251452b5a4da5e88015f73995.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/Android-Image-Cropper-2.2.3-cropper-unspecified_70dd212b2dd6967ea4f7dc41e3427e6ad949bd2a.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/times-lens-cropper-unspecified_7bd45552ccedfc32cbbfde99b6d51c021ae9dd5b.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_9ba48c144a7db2c709c64d11125cba0f502ec403.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_6daceb8290d3a03eca99446d7a942efd0165307d.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_85835f5bf53eb86bc91a7618118002bcd2c7f768.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_443bb267d2f3de7a2678690a9690b6b2203b313e.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_e8405f9f0b1b0e7360a228b674ab4935c69126fb.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_8fe42f4558a58d41dcfc9236a679b88c2ade6220.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_05736036d239f45ca24f09bb91f5dd762fa6eafa.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_e6d5fa9a8816250cfad750c785c1dd3e5f6b3ec5.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.rmtheis-tess-two-6.0.2_1d72bd6780c6170ccbd4c6a812150e965cfd1c34.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/com.rmtheis-tess-two-6.0.2_7def1041811d7f2dfdf6db7ef2164bebd9a48a96.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_55a5765af6ee6e14b74dd44b41d53d13dce298da.jar" afterPath="$PROJECT_DIR$/quick-start/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_b7a8c99a8f340e6b5c2ab4a857a7e388dc10310f.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropper/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/cropper/build/intermediates/bundles/debug/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropper/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/cropper/build/intermediates/bundles/release/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropper/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/cropper/build/intermediates/res/resources-debug-androidTest.ap_" />
@@ -39,7 +145,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick-start/build/outputs/apk/quick-start-debug-unaligned.apk" afterPath="$PROJECT_DIR$/quick-start/build/outputs/apk/quick-start-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quick-start/build/outputs/apk/quick-start-debug.apk" afterPath="$PROJECT_DIR$/quick-start/build/outputs/apk/quick-start-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/CropResultActivity.class" afterPath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/CropResultActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/MainActivity.class" afterPath="$PROJECT_DIR$/sample/build/intermediates/classes/debug/com/theartofdev/edmodo/cropper/sample/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_cd4ad51148e93a8f5a692b1a43d057ae1984695c.jar" afterPath="$PROJECT_DIR$/sample/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_cd4ad51148e93a8f5a692b1a43d057ae1984695c.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/sample/build/intermediates/res/resources-debug.ap_" />
@@ -756,7 +861,7 @@
       <file leaf-file-name="Translator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/theartofdev/edmodo/cropper/sample/Translator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3027523">
+            <state vertical-scroll-proportion="2.2297297">
               <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
               <folding />
             </state>
@@ -4946,14 +5051,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48016998" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18838526" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.85552406" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.601983" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -5033,7 +5138,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/src/main/java/com/theartofdev/edmodo/cropper/sample/Translator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3027523">
+        <state vertical-scroll-proportion="2.2297297">
           <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding />
         </state>
