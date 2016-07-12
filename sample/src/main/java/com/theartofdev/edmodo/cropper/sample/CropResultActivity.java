@@ -30,6 +30,7 @@ import com.googlecode.tesseract.android.TessBaseAPI;
 import java.io.File;
 import java.io.FileInputStream;
 import java.net.URI;
+import java.util.List;
 
 public final class CropResultActivity extends Activity {
 
@@ -39,7 +40,7 @@ public final class CropResultActivity extends Activity {
     static Bitmap mImage;
 
     private ImageView imageView;
-    private Translator translator = Translator.getInstance();
+    private ArticleFetcher articleFetcher = new ArticleFetcher();
 
     private static final String TAG = "CropResultActivity";
 
@@ -56,7 +57,18 @@ public final class CropResultActivity extends Activity {
         if (mImage != null) {
             Log.d(TAG, "image view not null");
             imageView.setImageBitmap(mImage);
-            String text = translator.translateToString(mImage);
+            // code to translate image to article object
+            String translation = Translator.translate(mImage);
+            translation = transform(translation); // TODO: use regex to remove weird chars like '"-,
+            List<Article> articles = articleFetcher.fetchArticles();
+            if (articles.isEmpty()) {
+                Toast.makeText(this, "No matching articles found", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(this, "Article url: " + articles.get(0).url, Toast.LENGTH_LONG).show();
+            }
+
+            String text = Translator.translate(mImage);
+            // end code to get article
             double ratio = ((int) (10 * mImage.getWidth() / (double) mImage.getHeight())) / 10d;
             int byteCount = 0;
             if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.HONEYCOMB_MR1) {
@@ -74,6 +86,11 @@ public final class CropResultActivity extends Activity {
                 Toast.makeText(this, "No image is set to show", Toast.LENGTH_LONG).show();
             }
         }
+    }
+
+    // TODO: remove weird chars
+    private String transform(String original) {
+        return original;
     }
 
     @Override

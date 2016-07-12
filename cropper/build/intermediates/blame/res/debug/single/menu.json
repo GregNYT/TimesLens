@@ -2,5 +2,9 @@
     {
         "merged": "/Users/207434/Downloads/Android-Image-Cropper-2.2.3/cropper/build/intermediates/res/merged/debug/menu/crop_image_menu.xml",
         "source": "/Users/207434/Downloads/Android-Image-Cropper-2.2.3/cropper/src/main/res/menu/crop_image_menu.xml"
+    },
+    {
+        "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/debug/menu/crop_image_menu.xml",
+        "source": "/Users/207434/Desktop/times-lens/cropper/src/main/res/menu/crop_image_menu.xml"
     }
 ]

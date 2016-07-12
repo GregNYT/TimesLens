@@ -271,11 +271,4 @@ public class MainActivity extends AppCompatActivity {
         ((TextView) findViewById(R.id.drawer_option_toggle_auto_zoom)).setText(getResources().getString(R.string.drawer_option_toggle_auto_zoom, options.autoZoomEnabled ? "Enabled" : "Disabled"));
         ((TextView) findViewById(R.id.drawer_option_toggle_max_zoom)).setText(getResources().getString(R.string.drawer_option_toggle_max_zoom, options.maxZoomLevel));
     }
-
-    @Override
-    public void onDestroy() {
-        super.onDestroy();
-        Translator t = Translator.getInstance();
-        t.destroy();
-    }
 }

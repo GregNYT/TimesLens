@@ -5,11 +5,13 @@ package com.theartofdev.edmodo.cropper.sample;
  */
 public class Article {
 
-    private String headline;
-    private String byLine;
+    final String headline;
+    final String byLine;
+    final String url;
 
-    public Article(String headline, String byLine) {
+    public Article(String headline, String byLine, String url) {
         this.headline = headline;
         this.byLine = byLine;
+        this.url = url;
     }
 }
