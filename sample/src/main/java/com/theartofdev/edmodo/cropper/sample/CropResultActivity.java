@@ -83,8 +83,7 @@ public final class CropResultActivity extends Activity {
     }
 
     private void displayArticleView() {
-        String[] translation = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
-
+        String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
         Handler handler = new Handler() {
 
             @Override
@@ -92,11 +91,13 @@ public final class CropResultActivity extends Activity {
                 if (msg.what == ARTICLE_FOUND) {
                     Bundle data = msg.getData();
                     String url = data.getString("url");
-                    Log.d(TAG, "found url: " + url);
-                    // TODO: switch to webview
+                    Intent intent = new Intent(getApplicationContext(), ArticleViewActivity.class);
+                    intent.putExtra("url", url);
+                    startActivity(intent);
                 }
             }
         };
+        articleFetcher.fetchArticles(handler, searchWords);
     }
 
     @Override

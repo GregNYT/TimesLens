@@ -25,6 +25,8 @@
         </activity>
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity">
         </activity>
+        <activity android:name="com.theartofdev.edmodo.cropper.sample.ArticleViewActivity">
+        </activity>
 
     </application>
 
