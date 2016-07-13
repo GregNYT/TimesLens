@@ -2,6 +2,15 @@ package com.theartofdev.edmodo.cropper.sample;
 
 import android.util.Log;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +27,17 @@ public class ArticleFetcher {
 
     // TODO: fetch articles asynchronously then update GUI on UI thread.
     public List<Article> fetchArticles(String... searchTerms) {
-        String query = buildQuery(searchTerms);
+        final String url = buildQuery(searchTerms);
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run(){
+                //code to do the HTTP request
+                JSONArray results = sendRequest(url);
+                Log.d(TAG, "Results: " + results);
+            }
+        });
+        thread.start();
+
         return new ArrayList<Article>();
     }
 
@@ -31,5 +50,51 @@ public class ArticleFetcher {
             result += toAppend;
         }
         return result;
+    }
+
+    // sends request and returns array of docs (articles) matching search
+    private JSONArray sendRequest(String urlString) {
+        HttpURLConnection connection = null;
+        JSONObject object = null;
+        try {
+            URL url = new URL(urlString);
+            connection = (HttpURLConnection) url.openConnection();
+            InputStream in = new BufferedInputStream(connection.getInputStream());
+            String contents = readStream(in);
+            Log.d(TAG, contents);
+            object = new JSONObject(contents);
+            Log.d(TAG, "Object: " + object.toString());
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (connection != null)
+                connection.disconnect();
+        }
+
+        // try returning array of docs matching query
+        if (object != null) {
+            try {
+                return object.getJSONArray("docs");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return null;
+    }
+
+    // returns String version of contents inside the InputStream
+    private String readStream(InputStream in) {
+        byte[] buffer = new byte[1024];
+        int bytesRead;
+        String contents = "";
+        try {
+            while((bytesRead = in.read(buffer)) != -1) {
+                contents += new String(buffer, 0, bytesRead);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return contents;
     }
 }
