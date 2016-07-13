@@ -93,16 +93,10 @@ public final class CropResultActivity extends Activity {
                     Bundle data = msg.getData();
                     String url = data.getString("url");
                     Log.d(TAG, "found url: " + url);
+                    // TODO: switch to webview
                 }
             }
         };
-
-        List<Article> articles = articleFetcher.fetchArticles(handler, translation);
-        if (articles.isEmpty()) {
-            Toast.makeText(this, "No matching articles found", Toast.LENGTH_LONG).show();
-        } else {
-            Toast.makeText(this, "Article url: " + articles.get(0).url, Toast.LENGTH_LONG).show();
-        }
     }
 
     @Override
