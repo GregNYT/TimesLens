@@ -72,15 +72,7 @@ public class ArticleFetcher {
         }
 
         // try returning array of docs matching query
-        if (object != null) {
-            try {
-                return object.getJSONArray("docs");
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-
-        return null;
+        return (object == null) ? null : object.optJSONArray("docs");
     }
 
     // returns String version of contents inside the InputStream
