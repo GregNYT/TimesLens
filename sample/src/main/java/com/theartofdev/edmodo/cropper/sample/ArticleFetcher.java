@@ -19,10 +19,10 @@ public class ArticleFetcher {
     // TODO: fetch articles asynchronously then update GUI on UI thread.
     public List<Article> fetchArticles(String... searchTerms) {
         String query = buildQuery(searchTerms);
-        Log.d(TAG, "Query: " + query);
         return new ArrayList<Article>();
     }
 
+    // encodes query terms in BASE_URL using OR to connect searchTerms
     private String buildQuery(String... searchTerms) {
         String result = BASE_URL + QUERY_SEPARATOR;
         for (int i = 0; i < searchTerms.length; ++i) {
