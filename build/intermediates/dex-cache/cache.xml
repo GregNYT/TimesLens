@@ -2,25 +2,18 @@
 <items version="2" >
 
     <item
+        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_6daceb8290d3a03eca99446d7a942efd0165307d.jar" />
+    </item>
+    <item
         jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
         <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_51e96c4848a3348b5a3ba6705b2c9cb87f626849.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_d40a67cfb7b06c6456f18c994b6721a90d4e8a9b.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_cd4ad51148e93a8f5a692b1a43d057ae1984695c.jar" />
     </item>
     <item
         jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
@@ -37,53 +30,11 @@
         <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_5bfc14f923537ca251452b5a4da5e88015f73995.jar" />
     </item>
     <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_6daceb8290d3a03eca99446d7a942efd0165307d.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_3ca7ae6c53ef8d3347efca14cba0716f4c130fb2.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_b7a8c99a8f340e6b5c2ab4a857a7e388dc10310f.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_443bb267d2f3de7a2678690a9690b6b2203b313e.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_8fe42f4558a58d41dcfc9236a679b88c2ade6220.jar" />
-    </item>
-    <item
         jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="bc3fc7a2e64f5875c92cb82fb02510d3a7db65dc">
         <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/times-lens-cropper-unspecified_7bd45552ccedfc32cbbfde99b6d51c021ae9dd5b.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/exploded-aar/times-lens/cropper/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="bc3fc7a2e64f5875c92cb82fb02510d3a7db65dc">
-        <dex dex="/Users/207434/Desktop/times-lens/quick-start/build/intermediates/pre-dexed/debug/times-lens-cropper-unspecified_c6a0da2ed445b47bc913a709342a0c231a029115.jar" />
     </item>
     <item
         jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.rmtheis/tess-two/6.0.2/jars/classes.jar"

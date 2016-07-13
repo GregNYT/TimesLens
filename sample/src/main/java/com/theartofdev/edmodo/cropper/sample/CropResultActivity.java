@@ -58,16 +58,17 @@ public final class CropResultActivity extends Activity {
             Log.d(TAG, "image view not null");
             imageView.setImageBitmap(mImage);
             // code to translate image to article object
-            String translation = Translator.translate(mImage);
-            translation = transform(translation); // TODO: use regex to remove weird chars like '"-,
-            List<Article> articles = articleFetcher.fetchArticles();
+            String[] translation = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
+            Log.d(TAG, "Search terms: ");
+            for (String word : translation) {
+                Log.d(TAG, word);
+            }
+            List<Article> articles = articleFetcher.fetchArticles(translation);
             if (articles.isEmpty()) {
                 Toast.makeText(this, "No matching articles found", Toast.LENGTH_LONG).show();
             } else {
                 Toast.makeText(this, "Article url: " + articles.get(0).url, Toast.LENGTH_LONG).show();
             }
-
-            String text = Translator.translate(mImage);
             // end code to get article
             double ratio = ((int) (10 * mImage.getWidth() / (double) mImage.getHeight())) / 10d;
             int byteCount = 0;

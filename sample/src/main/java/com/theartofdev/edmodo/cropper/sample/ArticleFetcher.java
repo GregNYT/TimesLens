@@ -1,5 +1,8 @@
 package com.theartofdev.edmodo.cropper.sample;
 
+import android.util.Log;
+
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -7,10 +10,26 @@ import java.util.List;
  */
 public class ArticleFetcher {
 
-    String baseURL = "http://search-add-api.prd.use1.nytimes.com/svc/add/v1/sitesearch.json?q=";
+    private static final String BASE_URL =
+            "http://search-add-api.prd.use1.nytimes.com/svc/add/v1/sitesearch.json";
+    private static final String QUERY_SEPARATOR = "?q=";
+    private static final String SPACE = "%20";
+    private static final String TAG = "ArticleFetcher";
 
     // TODO: fetch articles asynchronously then update GUI on UI thread.
     public List<Article> fetchArticles(String... searchTerms) {
-        return null;
+        String query = buildQuery(searchTerms);
+        Log.d(TAG, "Query: " + query);
+        return new ArrayList<Article>();
+    }
+
+    private String buildQuery(String... searchTerms) {
+        String result = BASE_URL + QUERY_SEPARATOR;
+        for (int i = 0; i < searchTerms.length; ++i) {
+            String term = searchTerms[i];
+            String toAppend = (i == searchTerms.length - 1) ? term : term + SPACE + "OR" + SPACE;
+            result += toAppend;
+        }
+        return result;
     }
 }
