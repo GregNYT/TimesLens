@@ -1,5 +1,7 @@
 package com.theartofdev.edmodo.cropper.sample;
 
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -25,20 +27,47 @@ public class ArticleFetcher {
     private static final String SPACE = "%20";
     private static final String TAG = "ArticleFetcher";
 
-    // TODO: fetch articles asynchronously then update GUI on UI thread.
-    public List<Article> fetchArticles(String... searchTerms) {
+    // loads 10 articles matching searchTerms then pings Handler when finished
+    public List<Article> fetchArticles(final Handler handler, String... searchTerms) {
+        final List<Article> articles = new ArrayList<Article>();
         final String url = buildQuery(searchTerms);
         Thread thread = new Thread(new Runnable() {
             @Override
-            public void run(){
-                //code to do the HTTP request
+            public void run() {
+                // handle HTTP off the UI thread
                 JSONArray results = sendRequest(url);
-                Log.d(TAG, "Results: " + results);
+                try {
+                    JSONObject doc = results.getJSONObject(0);
+                    Message msg = handler.obtainMessage();
+                    msg.what = CropResultActivity.ARTICLE_FOUND;
+                    msg.getData().putString("url", doc.getString("web_url"));
+                    handler.sendMessage(msg);
+                    Log.d(TAG, "messge sent");
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+//                for (int i = 0, length = results.length(); i < length; ++i) {
+//                    try {
+//                        JSONObject doc = results.getJSONObject(i);
+//                        JSONObject headlineData = doc.getJSONObject("headline");
+//                        if (headlineData == null) continue;
+//                        String mainHeadline = headlineData.optString("print_headline");
+//                        String printHeadline = headlineData.optString("main");
+//                        String url = doc.optString("web_url");
+//                        String byline = doc.optString("byline");
+//                        Article article = new Article(mainHeadline, printHeadline, byline, url);
+//                        Log.d(TAG, article.toString());
+//                        articles.add(article);
+//                    } catch (JSONException e) {
+//                        e.printStackTrace();
+//                    }
+//                }
             }
         });
         thread.start();
 
-        return new ArrayList<Article>();
+        return articles;
     }
 
     // encodes query terms in BASE_URL using OR to connect searchTerms
@@ -63,7 +92,6 @@ public class ArticleFetcher {
             String contents = readStream(in);
             Log.d(TAG, contents);
             object = new JSONObject(contents);
-            Log.d(TAG, "Object: " + object.toString());
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -72,7 +100,9 @@ public class ArticleFetcher {
         }
 
         // try returning array of docs matching query
-        return (object == null) ? null : object.optJSONArray("docs");
+        if (object == null) return null;
+        JSONObject response = object.optJSONObject("response");
+        return (response == null) ? null : response.optJSONArray("docs");
     }
 
     // returns String version of contents inside the InputStream
