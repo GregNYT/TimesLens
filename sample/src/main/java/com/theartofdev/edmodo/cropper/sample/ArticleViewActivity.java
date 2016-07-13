@@ -17,11 +17,8 @@ public class ArticleViewActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.d(TAG, "onCreate");
         setContentView(R.layout.activity_article_view);
         String url = getIntent().getStringExtra("url");
-        Log.d(TAG, url);
         ((WebView) findViewById(R.id.webView)).loadUrl(url);
-        Log.d(TAG, "loaded url");
     }
 }
