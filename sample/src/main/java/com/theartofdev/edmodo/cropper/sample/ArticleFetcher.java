@@ -93,7 +93,6 @@ public class ArticleFetcher {
             connection = (HttpURLConnection) url.openConnection();
             InputStream in = new BufferedInputStream(connection.getInputStream());
             String contents = readStream(in);
-            Log.d(TAG, contents);
             object = new JSONObject(contents);
         } catch (Exception e) {
             e.printStackTrace();
