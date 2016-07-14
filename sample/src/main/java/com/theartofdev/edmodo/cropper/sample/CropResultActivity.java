@@ -46,6 +46,7 @@ public final class CropResultActivity extends Activity {
 
     private static final String TAG = "CropResultActivity";
     public static final int ARTICLE_FOUND = 1;
+    public static final int NO_ARTICLE_FOUND = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +59,6 @@ public final class CropResultActivity extends Activity {
         imageView.setBackgroundResource(R.drawable.backdrop);
 
         if (mImage != null) {
-            Log.d(TAG, "image view not null");
             imageView.setImageBitmap(mImage);
 
             displayArticleView();
@@ -71,11 +71,11 @@ public final class CropResultActivity extends Activity {
             String desc = "(" + mImage.getWidth() + ", " + mImage.getHeight() + "), Ratio: " + ratio + ", Bytes: " + byteCount + "K";
             ((TextView) findViewById(R.id.resultImageText)).setText(desc);
         } else {
-            Log.d(TAG, "image view is null");
             Intent intent = getIntent();
             Uri imageUri = intent.getParcelableExtra("URI");
             if (imageUri != null) {
                 imageView.setImageURI(imageUri);
+                displayArticleView();
             } else {
                 Toast.makeText(this, "No image is set to show", Toast.LENGTH_LONG).show();
             }
@@ -83,17 +83,19 @@ public final class CropResultActivity extends Activity {
     }
 
     private void displayArticleView() {
-        String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
+        final String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
         Handler handler = new Handler() {
 
             @Override
             public void handleMessage(Message msg) {
+                Bundle data = msg.getData();
                 if (msg.what == ARTICLE_FOUND) {
-                    Bundle data = msg.getData();
                     String url = data.getString("url");
                     Intent intent = new Intent(getApplicationContext(), ArticleViewActivity.class);
                     intent.putExtra("url", url);
                     startActivity(intent);
+                } else {
+                    Toast.makeText(getApplicationContext(), data.getString("error") + " Try again.", Toast.LENGTH_LONG).show();
                 }
             }
         };

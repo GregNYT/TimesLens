@@ -28,21 +28,29 @@ public class ArticleFetcher {
     private static final String TAG = "ArticleFetcher";
 
     // loads 10 articles matching searchTerms then pings Handler when finished
-    public List<Article> fetchArticles(final Handler handler, String... searchTerms) {
-        final List<Article> articles = new ArrayList<Article>();
+    public void fetchArticles(final Handler handler, String... searchTerms) {
+        if (searchTerms.length == 0) {
+            respondNoArticlesFound(handler, "No search words found.");
+            return;
+        }
+
         final String url = buildQuery(searchTerms);
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
                 // handle HTTP off the UI thread
                 JSONArray results = sendRequest(url);
+                if (results == null) {
+                    respondNoArticlesFound(handler, "No matching articles found.");
+                    return;
+                }
+
                 try {
                     JSONObject doc = results.getJSONObject(0);
                     Message msg = handler.obtainMessage();
                     msg.what = CropResultActivity.ARTICLE_FOUND;
                     msg.getData().putString("url", doc.getString("web_url"));
                     handler.sendMessage(msg);
-                    Log.d(TAG, "messge sent");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -66,8 +74,13 @@ public class ArticleFetcher {
             }
         });
         thread.start();
+    }
 
-        return articles;
+    private void respondNoArticlesFound(final Handler handler, String message) {
+        Message msg = handler.obtainMessage();
+        msg.what = CropResultActivity.NO_ARTICLE_FOUND;
+        msg.getData().putString("error", message);
+        handler.sendMessage(msg);
     }
 
     // encodes query terms in BASE_URL using OR to connect searchTerms
