@@ -38,7 +38,7 @@ public class ArticleFetcher {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                // handle HTTP off the UI thread
+                // handle HTTP off the UI thread, then ping handler in CropResultActivity to update UI
                 JSONArray results = sendRequest(url);
                 if (results == null) {
                     respondNoArticlesFound(handler, "No matching articles found.");
@@ -47,6 +47,12 @@ public class ArticleFetcher {
 
                 try {
                     JSONObject doc = results.getJSONObject(0);
+
+                    if (doc == null) {
+                        respondNoArticlesFound(handler, "No matching articles found.");
+                        return;
+                    }
+
                     Message msg = handler.obtainMessage();
                     msg.what = CropResultActivity.ARTICLE_FOUND;
                     msg.getData().putString("url", doc.getString("web_url"));
@@ -54,28 +60,12 @@ public class ArticleFetcher {
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
-
-//                for (int i = 0, length = results.length(); i < length; ++i) {
-//                    try {
-//                        JSONObject doc = results.getJSONObject(i);
-//                        JSONObject headlineData = doc.getJSONObject("headline");
-//                        if (headlineData == null) continue;
-//                        String mainHeadline = headlineData.optString("print_headline");
-//                        String printHeadline = headlineData.optString("main");
-//                        String url = doc.optString("web_url");
-//                        String byline = doc.optString("byline");
-//                        Article article = new Article(mainHeadline, printHeadline, byline, url);
-//                        Log.d(TAG, article.toString());
-//                        articles.add(article);
-//                    } catch (JSONException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
             }
         });
         thread.start();
     }
 
+    // pings handler running on UI thread in CropResultActivity with error message
     private void respondNoArticlesFound(final Handler handler, String message) {
         Message msg = handler.obtainMessage();
         msg.what = CropResultActivity.NO_ARTICLE_FOUND;
