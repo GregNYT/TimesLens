@@ -13,6 +13,7 @@
 package com.theartofdev.edmodo.cropper.sample;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -45,6 +46,7 @@ public final class CropResultActivity extends Activity {
     static Bitmap mImage;
 
     private ImageView imageView;
+    private ProgressDialog progressDialog;
     private ArticleFetcher articleFetcher = new ArticleFetcher();
 
     private static final String TAG = "CropResultActivity";
@@ -90,11 +92,15 @@ public final class CropResultActivity extends Activity {
             return;
         }
 
+        progressDialog = ProgressDialog.show(this, "Article Finder",
+                "Searching for matching articles...", true);
+        progressDialog.show();
         final String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
         Handler handler = new Handler() {
 
             @Override
             public void handleMessage(Message msg) {
+                progressDialog.dismiss();
                 Bundle data = msg.getData();
                 if (msg.what == ARTICLE_FOUND) {
                     String url = data.getString("url");
@@ -106,6 +112,7 @@ public final class CropResultActivity extends Activity {
                 }
             }
         };
+
         articleFetcher.fetchArticles(handler, searchWords);
     }
 
