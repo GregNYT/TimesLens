@@ -13,8 +13,11 @@
 package com.theartofdev.edmodo.cropper.sample;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -50,7 +53,6 @@ public final class CropResultActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d(TAG, "activity created");
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_crop_result);
@@ -83,6 +85,11 @@ public final class CropResultActivity extends Activity {
     }
 
     private void displayArticleView() {
+        if (!isConnected()) {
+            Toast.makeText(getApplicationContext(), "Finding article requires Internet connection.", Toast.LENGTH_LONG).show();
+            return;
+        }
+
         final String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
         Handler handler = new Handler() {
 
@@ -100,6 +107,16 @@ public final class CropResultActivity extends Activity {
             }
         };
         articleFetcher.fetchArticles(handler, searchWords);
+    }
+
+    // determine if device has internet access
+    private boolean isConnected() {
+        ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
+        if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
+                connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
+            return true;
+        }
+        return false;
     }
 
     @Override

@@ -5,10 +5,6 @@
     <string name="app_title">TimesLens</string>
     <string name="result_image_desc">crop result</string>
 
-    <string name="main_drawer_load">Load Image for cropping</string>
-    <string name="main_drawer_open">Open navigation drawer</string>
-    <string name="main_drawer_close">Close navigation drawer</string>
-
     <string name="main_action_find_article">Find Article</string>
     <string name="main_action_rotate">Rotate 90 degrees clockwise</string>
     <string name="main_action_camera">Load picture</string>
