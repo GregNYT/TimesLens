@@ -12,6 +12,7 @@
 
 package com.theartofdev.edmodo.cropper.sample;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -161,6 +162,12 @@ public final class MainFragment extends Fragment
         } else if (item.getItemId() == R.id.main_action_rotate) {
             mCropImageView.rotateImage(90);
             return true;
+        } else if (item.getItemId() == R.id.main_action_camera) {
+            if (CropImage.isExplicitCameraPermissionRequired(getActivity())) {
+                requestPermissions(new String[]{Manifest.permission.CAMERA}, CropImage.CAMERA_CAPTURE_PERMISSIONS_REQUEST_CODE);
+            } else {
+                CropImage.startPickImageActivity(getActivity());
+            }
         }
         return super.onOptionsItemSelected(item);
     }

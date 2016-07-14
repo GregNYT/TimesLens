@@ -2,13 +2,17 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools">
     <item
+        android:id="@+id/main_action_camera"
+        android:title="@string/main_action_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        app:showAsAction="always"/>
+    <item
         android:id="@+id/main_action_rotate"
         android:icon="@android:drawable/ic_menu_rotate"
         android:title="@string/main_action_rotate"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/main_action_crop"
-        android:title="@string/main_action_crop"
+        android:title="@string/main_action_find_article"
         app:showAsAction="always"/>
-
 </menu>
