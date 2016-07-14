@@ -27,7 +27,7 @@ public class ArticleFetcher {
     private static final String SPACE = "%20";
     private static final String TAG = "ArticleFetcher";
 
-    // loads 10 articles matching searchTerms then pings Handler when finished
+    // handle HTTP off the UI thread, then pings handler in CropResultActivity to update UI
     public void fetchArticles(final Handler handler, String... searchTerms) {
         if (searchTerms.length == 0) {
             respondNoArticlesFound(handler, "No search words found.");
@@ -35,34 +35,27 @@ public class ArticleFetcher {
         }
 
         final String url = buildQuery(searchTerms);
-        Thread thread = new Thread(new Runnable() {
-            @Override
-            public void run() {
-                // handle HTTP off the UI thread, then ping handler in CropResultActivity to update UI
-                JSONArray results = sendRequest(url);
-                if (results == null) {
-                    respondNoArticlesFound(handler, "No matching articles found.");
-                    return;
-                }
+        JSONArray results = sendRequest(url);
+        if (results == null) {
+            respondNoArticlesFound(handler, "No matching articles found.");
+            return;
+        }
 
-                try {
-                    JSONObject doc = results.getJSONObject(0);
+        try {
+            JSONObject doc = results.getJSONObject(0);
 
-                    if (doc == null) {
-                        respondNoArticlesFound(handler, "No matching articles found.");
-                        return;
-                    }
-
-                    Message msg = handler.obtainMessage();
-                    msg.what = CropResultActivity.ARTICLE_FOUND;
-                    msg.getData().putString("url", doc.getString("web_url"));
-                    handler.sendMessage(msg);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
+            if (doc == null) {
+                respondNoArticlesFound(handler, "No matching articles found.");
+                return;
             }
-        });
-        thread.start();
+
+            Message msg = handler.obtainMessage();
+            msg.what = CropResultActivity.ARTICLE_FOUND;
+            msg.getData().putString("url", doc.getString("web_url"));
+            handler.sendMessage(msg);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
     }
 
     // pings handler running on UI thread in CropResultActivity with error message

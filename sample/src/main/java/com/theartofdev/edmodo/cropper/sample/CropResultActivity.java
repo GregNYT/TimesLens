@@ -92,12 +92,8 @@ public final class CropResultActivity extends Activity {
             return;
         }
 
-        progressDialog = ProgressDialog.show(this, "Article Finder",
-                "Searching for matching articles...", true);
-        progressDialog.show();
-        final String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
-        Handler handler = new Handler() {
-
+        // handles transition to a webView with given URL on main thread
+        final Handler urlHandler = new Handler() {
             @Override
             public void handleMessage(Message msg) {
                 progressDialog.dismiss();
@@ -113,7 +109,20 @@ public final class CropResultActivity extends Activity {
             }
         };
 
-        articleFetcher.fetchArticles(handler, searchWords);
+        progressDialog = ProgressDialog.show(this, "Article Finder",
+                "Searching for matching articles...", true);
+        progressDialog.show();
+
+        // handle translation/fetching articles off UI thread
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                final String[] searchWords = Translator.translate(mImage).replaceAll("[^a-zA-z ]", "").split("\\s+");
+                articleFetcher.fetchArticles(urlHandler, searchWords);
+            }
+        });
+        thread.start();
+
     }
 
     // determine if device has internet access
