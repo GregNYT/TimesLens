@@ -43,15 +43,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Uri mCropImageUri;
 
-    private CropImageViewOptions mCropImageViewOptions = new CropImageViewOptions();
-    //endregion
-
     public void setCurrentFragment(MainFragment fragment) {
         mCurrentFragment = fragment;
-    }
-
-    public void setCurrentOptions(CropImageViewOptions options) {
-        mCropImageViewOptions = options;
     }
 
     @Override
@@ -63,14 +56,13 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setHomeButtonEnabled(true);
 
         if (savedInstanceState == null) {
-            setMainFragmentByPreset(CropDemoPreset.RECT);
+            setMainFragmentByPreset();
         }
     }
 
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
-        mCurrentFragment.updateCurrentCropViewOptions();
     }
 
     @Override
@@ -130,10 +122,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void setMainFragmentByPreset(CropDemoPreset demoPreset) {
+    private void setMainFragmentByPreset() {
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.container, MainFragment.newInstance(demoPreset))
+                .replace(R.id.container, new MainFragment())
                 .commit();
     }
 }
