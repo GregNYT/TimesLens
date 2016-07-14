@@ -1,21 +1,11 @@
-.DS_Store
-
-bin
-gen
-externalRootPath
-local.properties
-*.apk
-*.log
-*.hprof
 
 build/
 tmp/
-appcompat
-
 
 .gradle/
 sample/build/
-cropper/
+cropper/build
 
 .idea
 *.iml
+
