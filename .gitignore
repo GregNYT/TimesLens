@@ -1,4 +1,8 @@
 
+cropper/
+local.properties
+sample/libraries/tess-two
+
 build/
 tmp/
 
