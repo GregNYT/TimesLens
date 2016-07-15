@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/207434/Desktop/times-lens/sample/build/intermediates/res/merged/debug/menu/crop_image_menu.xml",
+        "source": "/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/res/menu/crop_image_menu.xml"
+    },
+    {
+        "merged": "/Users/207434/Desktop/times-lens/sample/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/207434/Desktop/times-lens/sample/src/main/res/menu/main.xml"
+    }
+]
