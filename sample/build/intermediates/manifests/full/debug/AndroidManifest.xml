@@ -13,6 +13,20 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <!--
+     Group of permissions that are related to SD card access.
+    <permission-group android:name="android.permission-group.STORAGE"
+        android:label="@string/app_name"
+        android:description="@string/app_name" />
+    -->
+    <!--
+ Allows an application to write to the SD card
+    <permission android:name="android.permission.SDCARD_WRITE"
+        android:permissionGroup="android.permission-group.STORAGE"
+        android:label="@string/app_name"
+        android:description="@string/app_name"
+        android:protectionLevel="normal" />
+    -->
     <application
         android:allowBackup="false"
         android:icon="@drawable/ic_launcher"

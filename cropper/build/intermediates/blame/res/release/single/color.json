@@ -1,11 +1,35 @@
 [
     {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_search_url_text.xml"
+    },
+    {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
         "source": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_light.xml"
     },
     {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
         "source": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
@@ -14,6 +38,14 @@
     {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
         "source": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",
@@ -28,12 +60,24 @@
         "source": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
         "source": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
         "source": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/207515/shareThePaper/makerweek2016-times-lens/cropper/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/207434/Desktop/times-lens/cropper/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",

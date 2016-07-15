@@ -3,9 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
       <module fileurl="file://$PROJECT_DIR$/cropper/cropper.iml" filepath="$PROJECT_DIR$/cropper/cropper.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/tess-two/libraries-tess-two.iml" filepath="$PROJECT_DIR$/libraries/tess-two/libraries-tess-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/tess-two/libraries-tess-two.iml" filepath="$PROJECT_DIR$/libraries/tess-two/libraries-tess-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makerweek2016-times-lens.iml" filepath="$PROJECT_DIR$/makerweek2016-times-lens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/tess-two/makerweek2016-times-lens-tess-two.iml" filepath="$PROJECT_DIR$/libraries/tess-two/makerweek2016-times-lens-tess-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/times-lens.iml" filepath="$PROJECT_DIR$/times-lens.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/tess-two/times-lens-tess-two.iml" filepath="$PROJECT_DIR$/libraries/tess-two/times-lens-tess-two.iml" />

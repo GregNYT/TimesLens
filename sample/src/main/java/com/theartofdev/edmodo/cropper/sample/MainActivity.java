@@ -14,6 +14,7 @@ package com.theartofdev.edmodo.cropper.sample;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -45,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Uri mCropImageUri;
 
+    final private int REQUEST_CODE_WRITE_EXTERNAL_PERMISSIONS = 17;
+
     public void setCurrentFragment(MainFragment fragment) {
         mCurrentFragment = fragment;
     }
@@ -60,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             setMainFragmentByPreset();
         }
+        getStorageAccessPermissions(); // Request storage read/write permissions from the user
     }
 
     @Override
@@ -129,5 +133,14 @@ public class MainActivity extends AppCompatActivity {
         fragmentManager.beginTransaction()
                 .replace(R.id.container, new MainFragment())
                 .commit();
+    }
+
+    // For Marshmallow users, request permission to access external storage.
+    @TargetApi(23)
+    private void getStorageAccessPermissions() {
+        int hasWriteStoragePermission = checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE);
+        if (hasWriteStoragePermission != PackageManager.PERMISSION_GRANTED) {
+            requestPermissions(new String[] {Manifest.permission.WRITE_EXTERNAL_STORAGE}, REQUEST_CODE_WRITE_EXTERNAL_PERMISSIONS);
+        }
     }
 }

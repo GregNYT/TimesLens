@@ -2,60 +2,67 @@
 <items version="2" >
 
     <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_6daceb8290d3a03eca99446d7a942efd0165307d.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_51e96c4848a3348b5a3ba6705b2c9cb87f626849.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_cd4ad51148e93a8f5a692b1a43d057ae1984695c.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_e6d5fa9a8816250cfad750c785c1dd3e5f6b3ec5.jar" />
-    </item>
-    <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
         revision="23.0.1"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_5bfc14f923537ca251452b5a4da5e88015f73995.jar" />
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_83a7795936e810fb0191f95743e6aa4bc5727b8a/classes.dex" />
     </item>
     <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/times-lens/cropper/unspecified/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/207515/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
         revision="23.0.1"
-        sha1="d33225bc7cd5d28316b21853ffe3953bd4e4158e">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/times-lens-cropper-unspecified_7bd45552ccedfc32cbbfde99b6d51c021ae9dd5b.jar" />
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_526022e90c0f24c696bd3ec486ef4e1b30a0f8f8/classes.dex" />
     </item>
     <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.rmtheis/tess-two/6.0.2/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.1"
-        sha1="92bf92afeb20ac230eff9feedea58e32a46e7729">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.rmtheis-tess-two-6.0.2_7def1041811d7f2dfdf6db7ef2164bebd9a48a96.jar" />
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_09cdc141171fe3a274817eea608f4b804ff4e5bc/classes.dex" />
     </item>
     <item
-        jar="/Users/207434/Desktop/times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.1"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/207434/Desktop/times-lens/sample/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_c025348f6d0bf4b391d8a690c4b91a366f570d20.jar" />
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_abc008de89a7e6a1648c95c85f7e99cc44053727/classes.dex" />
+    </item>
+    <item
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_e6984e2e7a4818763789a9cbc1a9e27714239f78/classes.dex" />
+    </item>
+    <item
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/exploded-aar/com.rmtheis/tess-two/6.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="92bf92afeb20ac230eff9feedea58e32a46e7729">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.rmtheis-tess-two-6.0.2_649c98a886515b99d5fa260d8a14bafb30f454d9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="0ce3465f88eef4a773d3098415aa79f8f3eead75">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8ae2946dfdc7595f5792c9caeb0581b53afd4687/classes.dex" />
+    </item>
+    <item
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="854e8c453663189fd3af797ad59a3d9503ee9f07">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_60b9e55ec01dedd01e8e8cdabb05738020d3b4c0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/207515/shareThePaper/makerweek2016-times-lens/sample/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_02d5925661a251db422f7b88c6c6dd9d8231ace5/classes.dex" />
     </item>
 
 </items>
