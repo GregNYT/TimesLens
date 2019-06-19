@@ -109,9 +109,8 @@ public final class CropResultActivity extends Activity {
             }
         };
 
-        progressDialog = ProgressDialog.show(this, "Article Finder",
-                "Searching for matching articles...", true);
-        progressDialog.show();
+//                ProgressDialog.show(this, "Article Finder",
+//                "Searching for matching articles...", true);
 
         // handle translation/fetching articles off UI thread
         Thread thread = new Thread(new Runnable() {
@@ -123,6 +122,9 @@ public final class CropResultActivity extends Activity {
         });
         thread.start();
 
+        progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Searching for matching articles...");
+        progressDialog.show();
     }
 
     // determine if device has internet access

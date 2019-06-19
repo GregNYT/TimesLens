@@ -35,6 +35,7 @@ public class ArticleFetcher {
         }
 
         final String url = buildQuery(searchTerms);
+        Log.d(TAG,url);
         JSONArray results = sendRequest(url);
         if (results == null) {
             respondNoArticlesFound(handler, "No matching articles found.");
